@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Mada:wght@500&display=swap');
+
+:root {
+    --color--prime : #371c61;
+    --color--similirprime-- :#644593;
+    /* #644593 */
+    /* #371c61 */
+}
+
+*{
+    font-family: 'Cairo', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+display: grid;
+grid-template-columns: 1fr  ;
+grid-template-rows: 0.3fr 2.5fr 1fr 2.5fr 3fr ;
+color: aqua;
+text-align: center;
+height: 300vh;
+
+
+}
+/* ----------------header--------------------------- */
+
+
+header  {
+    background-color: var(--color--prime);
+    color: antiquewhite;
+}
+header h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+/* --------------------end_header--------------- */
+/* -------------------present-products------------------ */
+
+.product {
+    background-color:#000000 ;
+    grid-row:2/3 ;
+    position: relative;
+    z-index: 5;
+}
+
+.product a img {
+    width:250px ;
+    position: relative;
+    top: 2%;
+}
+
+
+.product .productimg {
+    position: relative;
+    width: 500px;
+
+    border-radius: 30px;
+    left: 20%;
+
+}
+.product .pone {
+    font-size: 30px;
+    position: relative;
+    color: var(--color--similirprime--);
+    font-weight: bold;
+
+}
+
+.product .ptwo {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    bottom: 30px;
+    position: relative;
+
+}
+.order {
+    background-color: white;
+}
+
+.box {
+    position: relative;
+    width: 350px;
+    bottom: 300px;
+    right: 55%;
+    height: 0px;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.box .one  {
+font-size: 30px;
+color: var(--color--similirprime--);
+font-weight: bold;
+
+} 
+
+.box .line {
+    background-color: white;
+    height: 5px;
+    width: 250px;
+    /* left: 10%; */
+    position: relative;
+    display: flex;
+
+}
+
+.box .boxbtn .btn {
+  
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+
+
+    
+}
+.box .boxbtn {
+    /* left: 20%; */
+    position: relative;
+    display: flex;
+    background-color: #ac2e11;
+    border-radius: 2px;
+    width: 300px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-weight: bold;
+    display: flex;
+
+
+}
+
+ i {
+    color: #ffffff;
+    right: 15px;
+    position: relative;
+}
+
+.box .pthree {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.box .boxbtn .btn:hover{
+background-color: rgb(117, 43, 43);
+}
+
+
+/* ---------------END----present-products------------------ */
+
+        /* --------------------ORDER--------------- */
+.order {
+display: inline-block;
+  }
+.order p {
+font-size: 30px;
+color: #000000;
+font-weight: bold;
+}
+.order .allthing{
+display: flex;
+position: relative;
+justify-content: center;
+}
+
+.order .groupone {
+margin-left: 40px;
+color: #000000;
+font-size: 20px;
+
+
+}
+
+.ordre .groupone h2 {
+    font-weight: bold;
+
+}
+
+.order .groupetwo  {
+    color: #000000;
+    font-size: 20px;
+
+}
+
+.order .btn {
+text-decoration: none;
+border-radius: 20px;
+height: 30px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+
+}
+
+.order .line {
+    background-color: black;
+    height: 5px;
+    width: 200px;
+    left: -43%;
+    position: relative;
+    bottom: 5%;
+}
+
+.order .boxoone {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+.order .boxoone .boxbtn {
+    background-color: red;
+    position: relative;
+    width: 200px;
+    right: 40%;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+      /* --------------END------ORDER--------------- */
+
+
+/* ------------------product---two------------------ */
+.product_two {
+    background-color:#000000 ;
+    
+}
+
+.product_two .allthing {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product_two .header {
+display: flex;
+position: relative;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+
+}
+.product_two a img  {
+width: 230px;
+margin-right: 90px;
+position: relative;
+}
+
+.product_two .coin p {
+    margin-left: 150px;
+    font-size: 20px;
+    color: var(--color--similirprime--);
+    font-weight: bold;
+}
+
+
+.product_two .centertext {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-height:200px ;
+    display: grid;
+    
+}
+
+
+.product_two .centertext #pone {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.product_two .centertext #pthree {
+    color: var(--color--similirprime--);
+    color: var(--color--similirprime--);
+    font-size: 15px;
+    font-weight: bold;
+    bottom: 10px;
+    position: relative;
+}
+
+.product_two .centertext .box_one {
+    background-color: #ff0000;
+    width: 500px;
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.product_two .centertext .box_one a {
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.product_two .boite {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.product_two .boite #box {
+    position: relative;
+    width: 350px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* left: 120px; */
+}
+
+.product_two .boite #box #line {
+    height: 5px;
+    background-color: var(--color--similirprime--);
+    width: 200px;
+}
+.product_two .boite #box #pone {
+    color:var(--color--similirprime--) ;
+    font-weight: bold;
+}
+
+.product_two .boite #box #pthree  
+{
+
+    font-weight: bold;
+    color: #ffffff;
+}
+.product_two .boite #box .boxbtn {
+background-color: #ac2e11;
+width: 200px;
+height: 40px;
+border: 3px solid rgb(240, 235, 235);
+}
+
+.product_two .boite #box .boxbtn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.product_two .boxtimer  {
+display: flex;
+position: relative;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+}
+
+.product_two .boxtimer #pone {
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.product_two .boxtimer #ptwo {
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #8a2222;
+    right: 100px;
+    position: relative;
+
+}
+.product_two .boite .productimg{
+    position: relative;
+    width: 420px;
+    margin: 20px;
+    border-radius: 30px;
+    /* right: 50px; */
+}
+/* --------------end----product---two------------------ */
+
+
+.container .offer {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;  
+    height: 200vh;
+    flex-direction: column;
+
+
+}
+
+ .offer .lesboites img {
+width: 130px;
+
+}
+
+
+
+ .offer .lesboites {
+    display:flex;
+    position: relative;
+    /* bottom:600px; */
+    background: #ffffff;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+
+.offer .lesboites #line {
+    height: 5px;
+    width: 100px;
+    position: relative;
+    background-color: #000000;
+    margin-bottom: 20px;
+
+}
+
+
+.offer .lesboites .buyone  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
+.offer .lesboites .buytwo  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
+.offer .lesboites .buymuch  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+.offer .newbox
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    
+    
+}
+
+.offer .newbox p {
+    background-color: #f80909;
+    font-size: 30px;
+    width: 900px;
+}
+
+
+.offer .newbox .boxbouton {
+    background-color: #ac2e11;
+    width: 300px;
+    height: 70px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 5px solid wheat ;
+    transition: 0.7s;
+}
+
+
+.offer .newbox .boxbouton a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 30px;
+
+}
+
+.offer .newbox .boxbouton:hover {
+height:  60px;
+background-color: #9e2f2f;
+
+}
+
+
+.offer .all {
+    height:50vh ;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+}
+.offer .all h1 {
+    color: #000000;
+}
+
+.offer .all #line {
+    height: 5px;
+    background-color: #000000;
+    width: 100px;
+    top: -15px;
+    position: relative;
+}
+.offer .all .allstep  {
+    height: 250px;
+    width: 210px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.offer .all .allstep .step1 {
+    width: 200px;
+}
+.offer .all .allstep  .ziyada {
+    background-color: #eae5e5;
+    height: 35px;
+}
+.offer .all .allstep  .ziyada h1 {
+    font-size: 20px;
+    color: #000000;
+}
+
+.offer .all .allstep  .step1 img {
+    width: 150px;
+
+}
+
+.offer .all .allstep  .step1  {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    background-color: #000000;
+    height: 215px;
+    flex-direction: column;
+}
+
+
+
+.offer .all .allstep .step1 p {
+    color: white;
+    font-weight: bold;
+}
+.offer .sandok .youcan  {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.offer .sandok .youcan img {
+    width: 200px;
+}
+.offer .sandok p {
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.offer .sandok #less {
+    color: rgb(204, 22, 22);
+}
+.offer .join {
+display: grid;
+align-items: center;
+justify-content: center;
+}
+.offer .join .email {
+    width: 100%;
+    height: 40px;
+     border: 2px solid  grey;
+     border-radius: 5px;
+     margin-bottom: 20px;
+}
+.offer .join .form-group {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.offer .join input {
+height: 40px;
+border: 2px solid gray;
+border-radius: 5px;
+box-shadow: 0.1em 0 .2em gray;
+}
+.offer .join .clickorder {
+    background-color: #9e2f2f;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 4px solid wheat;
+}
+.offer .join .clickorder a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
